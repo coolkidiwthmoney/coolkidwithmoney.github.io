@@ -1,0 +1,73 @@
+   /* I'm adding another one so Mrs. Metzler is happy */
+@import url('https://fonts.googleapis.com/css2?family=Economica&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+body {
+    color:black;
+    background-color:aliceblue;
+}
+h1, h2 {
+    color: black;
+}  
+
+h1 {
+    font-size: 50px;
+}
+
+/* Text font */
+
+h1, h2, p, a, ul {
+    font-family: "oswald"
+}
+
+title {
+    font-family: "open sans"
+}
+
+h2 {
+    border: 0px solid lightskyblue;
+    border-radius: 0px;
+    background-color: lightsteelblue;
+    padding: 5px;
+    font-size: 35px;
+}
+
+a { 
+    border: 0px solid lightskyblue;
+    border-radius: 0px;
+    background-color: lightsteelblue;
+    padding: 5px;
+    font-size: 30px;
+    text-decoration: none
+}
+
+p, ul {
+    font-size: 25px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 5;
+    overflow: hidden;
+    background-color: lightsteelblue;
+}
+
+li a {
+    display: inline;
+    text-decoration: none
+}
+
+li a:hover {
+    background-color: darkgray;
+    color: white;
+}
+
+.active {
+    background-color: black;
+    color: white;
+}
+
+li {
+    float: left;
+}
