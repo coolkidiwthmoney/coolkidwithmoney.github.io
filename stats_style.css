@@ -5,6 +5,7 @@
 body {
     color:black;
     background-color:aliceblue;
+    margin: 0px;
 }
 h1, h2 {
     color: black;
@@ -36,8 +37,8 @@ a {
     border: 0px solid lightskyblue;
     border-radius: 0px;
     background-color: lightsteelblue;
-    padding: 5px;
-    font-size: 30px;
+    padding: 20px;
+    font-size: 50px;
     text-decoration: none
 }
 
@@ -48,7 +49,8 @@ p, ul {
 ul {
     list-style-type: none;
     margin: 0;
-    padding: 5;
+    padding: 15;
+    padding-left: 0px;
     overflow: hidden;
     background-color: lightsteelblue;
 }
